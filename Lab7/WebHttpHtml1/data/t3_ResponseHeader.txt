@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Mon, 03 Dec 2018 13:39:26 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d635b2dc45e8cc5a6423b6c89ed65d8361543844365; expires=Tue, 03-Dec-19 13:39:25 GMT; path=/; domain=.fullstackreact.com; HttpOnly
+x-amz-id-2: +3hZ8okJWICBM05efZIx3hqDVQmpdAb6e2azae9WgnKtPMVqp50rlC4cenueoPLnmY6MYRkfrDM=
+x-amz-request-id: 12F56A71DED435B9
+Last-Modified: Tue, 13 Nov 2018 19:25:19 GMT
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 48367077192d8b76-KBP
+

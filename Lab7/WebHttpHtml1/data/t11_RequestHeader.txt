@@ -1,0 +1,15 @@
+POST /?1543845499865&jp8d91yq HTTP/1.1
+Host: 178.32.113.122
+Connection: keep-alive
+Content-Length: 96
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+Origin: chrome-extension://biokbpahnhnolgnfoblfflgopeepaoik
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+DNT: 1
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru-UA;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6
+Cookie: frigate_FLASH=
+X-Compress: null
+

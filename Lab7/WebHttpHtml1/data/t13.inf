@@ -1,0 +1,11 @@
+[t13]
+FileName1=t13.txt
+URL1=http://178.32.113.122/?1543846207833&jp8d91ys
+Total=1
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=t13_RequestBody.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_13.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

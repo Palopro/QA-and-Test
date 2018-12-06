@@ -1,0 +1,1176 @@
+9d42
+
+
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Article">
+<head>
+  
+  <title>Fullstack React: 30 Days of React</title>
+  <meta name="description" content="">
+
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" sizes="16x16 32x32 64x64" type="image/x-icon" href="/assets/images/icons/favicon.ico?v=2" />
+
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="Fullstack React: 30 Days of React">
+  <meta itemprop="description" content="">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@fullstackreact">
+  <meta name="twitter:title" content="Fullstack React: 30 Days of React">
+
+  <meta name="twitter:creator" content="@fullstackreact">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Fullstack React: 30 Days of React" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Fullstack React" />
+  <meta property="article:published_time" content="Tue Nov 13 2018 19:17:13 GMT+0000 (UTC)" />
+  <!--
+  <meta property="og:url" content="http://www.example.com/" />
+  <meta property="article:section" content="Article Section" />
+  <meta property="article:tag" content="Article Tag" />
+  <meta property="fb:admins" content="Facebook numberic ID" />
+  -->
+
+  
+
+
+
+	<!-- Vendor Styles -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic,500,600,700italic,300italic|Source+Sans+Pro:700,300,400italic,400,300italic,700italic|Lora:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7767712/7205752/css/fonts.css" />
+
+
+	<!-- App Styles -->
+  <link rel="stylesheet" href="/assets/css/style.css?v=12" />
+  
+
+  
+  
+
+	<!-- Vendor JS -->
+
+	<script src="/assets/vendor/jquery-1.11.3.min.js"></script>
+	<script src="/assets/vendor/bootstrap-less/js/bootstrap.min.js"></script>
+	<script src="/assets/vendor/lazyload.min.js"></script>
+
+  
+
+<script>
+  if (window.location.host != 'localhost') {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-28176211-11', 'auto', {'allowLinker': true});
+    ga('require', 'linkid');
+    ga('require', 'linker');
+    ga('linker:autoLink', ['gumroad.com']);
+    ga('send', 'pageview');
+  }
+</script>
+
+
+  
+
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com -->
+<script type="text/javascript" src="https://a.optmnstr.com/app/js/api.min.js" data-account="2714" data-user="23247" async></script>
+<!-- / https://optinmonster.com -->
+
+
+  
+<script type="text/javascript" src="https://fd338.infusionsoft.com/app/webTracking/getTrackingCode?trackingId=3d09dd8caed968d48e9807c6ff5d0651"></script>
+
+
+  
+</head>
+<body class="pushable  blog landingpage">
+  <div class="wrapper">
+    <header class="header navbar-default">
+      
+      <div class="header">
+        <header class="header navbar-default">
+  <div class="container">
+
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+    <div class="navbar-collapse collapse" id="menu">
+      <ul class="nav navbar-nav">
+        <!--
+        <li>
+          <a href="/#table-of-contents">Table of Contents</a>
+        </li>
+        -->
+
+        <!--
+        <li>
+          <a href="/#testimonials">Testimonials</a>
+        </li>
+        -->
+        <li><a href="/react-from-zero">React from Zero Book</a></li>
+
+        <li><a href="/30-days-of-react">30 Days of React</a></li>
+
+        <li><a href="/react-native">React Native Book</a></li>
+
+        <li><a href="/">Fullstack React Book</a></li>
+
+        <li>
+          <a href="http://newsletter.fullstackreact.com">Newsletter</a>
+        </li>
+
+        <li><a href="/articles">Blog</a></li>
+
+        <!--
+        <li><a href="/react-daily-ui">Daily UI</a></li>
+      -->
+
+        <!--
+        <li>
+          <a href="/" class="btn btn-default btn-mobile-block">Get The Book</a>
+        </li>
+      -->
+
+      </ul><!-- /.nav -->
+    </div><!-- /.navbar-collapse -->
+
+    <a href="/" class="navbar-brand navbar-react">
+      <img src=" /assets/images/logos/fullstack-react-wordmark.png"
+      srcset=" /assets/images/logos/fullstack-react-wordmark@2x.png 2x"
+      class="img-responsive"
+      />
+
+    </a>
+  </div><!-- /.container -->
+</header><!-- /.header -->
+
+      </div>
+      
+    </header><!-- /.header -->
+
+    <main class="main">
+      
+  
+
+
+
+
+
+<div class="thirty-days">
+  <main class="main">
+    <div class="intro-banner" >
+			<img src="/assets/images/30days/30-days-of-react-header.jpg" alt="30 Days of React">
+    </div><!-- /.intro-banner -->
+
+    <div class="section-marketing">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-1 col-sm-1">
+          </div>
+          <div class="col-lg-6 col-md-8 col-sm-7 col-xs-12">
+
+            <div class="section-body">
+              <p>Interested in Learning React but having trouble getting started?</p>
+
+              <!--
+                  <p class='feeling-lost'>Are you feeling a little lost in all the jargon?</p>
+
+              <p class='jargon'><tt>JSX</tt>, <tt>Props</tt>, <tt>Webpack</tt>, <tt>Redux</tt>, <tt>Enzyme</tt>, <tt>Presentational Components</tt>, <tt>Middleware</tt>, <tt>State</tt>, <tt>Hooks</tt>, <tt>Pure Components</tt>... </p>
+
+              <p>Does it feel like <b>everyone else</b> seems to know how these things fit together?</p>
+              -->
+
+              <p>We'll teach you how it all works - <em>for free</em></p>
+
+              <p>Over the next 30 days, we'll walk through everything you need to know to work with React. From the <b>very beginning</b> through <b>testing and deployment</b> of our first app.</p>
+            </div><!-- /.section-body -->
+
+            <div class="section-foot">
+              <a href="/download/30-days-of-react/" target="_blank" class="manual-optin-trigger btn btn-default" data-optin-slug="opsh28ygz42xhvtlq4vd">Download the free 300+ page PDF</a>
+            </div><!-- /.section-foot -->
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs">
+            <div class="mini-book-preview">
+              <img src="/assets/images/30days/30-days-of-react-book-cover-2-as-book-220.png" alt="30 Days of React Mini-Ebook">
+            </div>
+          </div>
+        </div>
+      </div><!-- /.container -->
+    </div><!-- /.section-cta -->
+
+    <div class="section-chapters">
+      <div class="container">
+        <div class="section-body">
+          <div class="row">
+
+          
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-1">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/1.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>What is React?</h4>
+
+          <h3></h3>
+
+          <p>Today, we're starting out at the beginning. Let's look at what React is and what makes it tick. We'll discuss why we want to use it.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 1
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-2">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/2.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>What is JSX?</h4>
+
+          <h3></h3>
+
+          <p>Now that we know what React is, let's take a look at a few terms and concepts that will come up throughout the rest of the series.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 2
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-3">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/3.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Our First Components</h4>
+
+          <h3></h3>
+
+          <p>The first two articles in this series were heavy on discussion. In today's session, let's dive into some code and write our first React app.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 3
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-4">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/4.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Complex Components</h4>
+
+          <h3></h3>
+
+          <p>Awesome, we've built our first component. Now let's get a bit fancier and start building a more complex interface.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 4
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-5">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/5.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Data-Driven</h4>
+
+          <h3></h3>
+
+          <p>Hard-coding data in our applications isn't exactly ideal. Today, we'll set up our components to be driven by data to them access to external data.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 5
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-6">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/6.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>State</h4>
+
+          <h3></h3>
+
+          <p>Today we're getting started on how stateful components work in React and look at when and why we'll use state.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 6
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-7">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/7.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Lifecycle Hooks</h4>
+
+          <h3></h3>
+
+          <p><blockquote class="warning"> <b>NOTE</b>: This post is about <em>classic</em> React Lifecycle hooks.<br/> If you're looking to learn about the <a href="https://www.fullstackreact.com/articles/an-introduction-to-hooks-in-react/"><b>new Hooks API</b> then click here</a> </blockquote> Today, we'll look through a few of the most common lifecycle hooks we can use with React components and we'll discuss why they are useful and when we should each one. abc</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 7
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-8">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/8.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Packaging and PropTypes</h4>
+
+          <h3></h3>
+
+          <p>We're looking at how to make reusable React components today so that not only can we share our components across apps and teams.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 8
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-9">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/9.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Styles</h4>
+
+          <h3></h3>
+
+          <p>No application is complete without style. We'll look at the different methods we can use to style our components, from traditional CSS to inline styling.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 9
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-10">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/10.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Interactivity</h4>
+
+          <h3></h3>
+
+          <p>Today we'll walk through how to add interactivity to our applications to make them engaging and dynamic.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 10
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-11">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/11.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Pure Components</h4>
+
+          <h3></h3>
+
+          <p>React offers several different methods for creating components. Today we'll talk about the final method of creating components, the function stateless pure component.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 11
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-12">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/12.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>create-react-app</h4>
+
+          <h3></h3>
+
+          <p>Today, we're going to add a build process to store common build actions so we can easily develop and deploy our applications.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 12
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-13">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/13.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Repeating Elements</h4>
+
+          <h3></h3>
+
+          <p>Today we're going to work through how to display multiple components in preparation for pulling in external data into our app.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 13
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-14">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/14.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Fetching Remote Data</h4>
+
+          <h3></h3>
+
+          <p>We're ready to make an external request to fetch data! Today we're looking at the first step of making a call to an external API.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 14
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-15">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/15.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Introduction to Promises</h4>
+
+          <h3></h3>
+
+          <p>Today, we're going to look at what we need to know to understand Promises from a high-level, so we can build our our applications using this incredibly useful concept.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 15
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-16">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/16.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Displaying Remote Data</h4>
+
+          <h3></h3>
+
+          <p>Our front-end applications are only as interesting as the data we display in them. Today, let's actually start making a request for data and get it integrated into our app.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 16
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-17">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/17.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Client-side Routing</h4>
+
+          <h3></h3>
+
+          <p>Most, if not all of our applications will have multiple views in our single-page application. Let's dive right into creating multiple views for our applications using React Router.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 17
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-18">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/18.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Introduction to Flux</h4>
+
+          <h3></h3>
+
+          <p>Handling data inside a client-side application is a complex task. Today we're looking at a one method of handling complex data proposed by Facebook called the Flux Architecture.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 18
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-19">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/19.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Data Management with Redux</h4>
+
+          <h3></h3>
+
+          <p>With the knowledge of flux and Redux, let's integrate Redux in our application and walk through connected applications.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 19
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-20">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/20.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Redux actions</h4>
+
+          <h3></h3>
+
+          <p>With Redux in place, let's talk about how we actually modify the Redux state from within our applications.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 20
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-21">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/21.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Redux Middleware</h4>
+
+          <h3></h3>
+
+          <p>Today, we're looking at the Redux method of managing complex state changes in our code using Redux middleware.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 21
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-22">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/22.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Introduction to Testing</h4>
+
+          <h3></h3>
+
+          <p>Test suites are an upfront investment that pay dividends over the lifetime of a system. Today we'll introduce the topic of testing and discuss the different types of tests we can write.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 22
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-23">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/23.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Implementing Tests</h4>
+
+          <h3></h3>
+
+          <p>Yesterday we examined the different types of tests that we write in React. Today we'll see it in action. We'll install the dependencies required to set up tests as well as write our first assertions.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 23
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-24">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/24.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Testing the App</h4>
+
+          <h3></h3>
+
+          <p>Let's start by looking at one feature of our application and thinking about where the edge cases are and what we assume will happen with the component.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 24
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-25">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/25.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Better Testing with Enzyme</h4>
+
+          <h3></h3>
+
+          <p>Today, we'll look at an open-source library maintained by Airbnb called Enzyme that makes testing fun and easy.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 25
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-26">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/26.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Integration Testing</h4>
+
+          <h3></h3>
+
+          <p>Today we'll write tests to simulate how users interact with our application and will test the entire flow of our app in a live browser.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 26
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container">
+      <a href="day-27">
+      <div class="chapter-thumb">
+        <div class="chapter-image" style="background-image: url( /assets/images/series/30-days-of-react/headings/27.jpg )">
+        </div><!-- /.chapter-image -->
+
+        <div class="chapter-body">
+          <h4>Deployment Introduction</h4>
+
+          <h3></h3>
+
+          <p>Today, we'll explore the different pieces involved in deploying our application so the world can use our application out in the wild.</p>
+        </div><!-- /.chapter-body -->
+
+        <div class="chapter-foot">
+          Day 27
+        </div><!-- /.chapter-foot -->
+      </div><!-- /.chapter-thumb -->
+      </a>
+    </div><!-- /.col-md-4 -->
+  
+            
+            
+              
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container disabled">
+    <a href="/download/30-days-of-react/" target="_blank" class="manual-optin-trigger" data-optin-slug="opsh28ygz42xhvtlq4vd">
+    <div class="chapter-thumb">
+      <div class="chapter-image"
+           style="background-image: url( /assets/images/series/30-days-of-react/headings/28.jpg ); background-blend-mode: luminosity, normal; background-color: #fff;">
+      </div><!-- /.chapter-image -->
+
+      <div class="chapter-body">
+        <h4>Deployment</h4>
+
+        <h3></h3>
+
+        <p>Today, we'll look through some ready-to-go options so we can get our site up and running. By the end of today, you'll be able to share a link to your running application.</p>
+      </div><!-- /.chapter-body -->
+      <div class="chapter-foot">
+        Day 28
+      </div><!-- /.chapter-foot -->
+     </div><!-- /.chapter-thumb -->
+    </a>
+  </div><!-- /.col-md-4 -->
+
+
+            
+            
+              
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container disabled">
+    <a href="/download/30-days-of-react/" target="_blank" class="manual-optin-trigger" data-optin-slug="opsh28ygz42xhvtlq4vd">
+    <div class="chapter-thumb">
+      <div class="chapter-image"
+           style="background-image: url( /assets/images/series/30-days-of-react/headings/29.jpg ); background-blend-mode: luminosity, normal; background-color: #fff;">
+      </div><!-- /.chapter-image -->
+
+      <div class="chapter-body">
+        <h4>Continuous Integration</h4>
+
+        <h3></h3>
+
+        <p>Today we'll look through some continuous integration solutions available for us to run tests against as well as implement one to test our application in the cloud.</p>
+      </div><!-- /.chapter-body -->
+      <div class="chapter-foot">
+        Day 29
+      </div><!-- /.chapter-foot -->
+     </div><!-- /.chapter-thumb -->
+    </a>
+  </div><!-- /.col-md-4 -->
+
+
+            
+            
+              
+  <div class="col-md-4 col-sm-6 col-xs-12 chapter-container disabled">
+    <a href="/download/30-days-of-react/" target="_blank" class="manual-optin-trigger" data-optin-slug="opsh28ygz42xhvtlq4vd">
+    <div class="chapter-thumb">
+      <div class="chapter-image"
+           style="background-image: url( /assets/images/series/30-days-of-react/headings/30.jpg ); background-blend-mode: luminosity, normal; background-color: #fff;">
+      </div><!-- /.chapter-image -->
+
+      <div class="chapter-body">
+        <h4>Wrap-up and More Resources</h4>
+
+        <h3></h3>
+
+        <p>We've made it! Day 30. Congrats! Now you have enough information to write some very complex applications, integrated with data, styled to perfection, tested and deployed.</p>
+      </div><!-- /.chapter-body -->
+      <div class="chapter-foot">
+        Day 30
+      </div><!-- /.chapter-foot -->
+     </div><!-- /.chapter-thumb -->
+    </a>
+  </div><!-- /.col-md-4 -->
+
+
+            
+            
+  
+            </div>
+        </div><!-- /.section-body -->
+      </div><!-- /.container -->
+    </div><!-- /.section-chapters -->
+
+    <div class="section-promo">
+      <div class="container">
+        <div class="promo-box">
+          <div class="promo-box-bg"></div><!-- /.promo-box-bg -->
+
+          <div class="promo-box-inner">
+            <div class="promo-box-image">
+              <img src="/assets/images/icon-orange.png" alt="" width="257" height="281">
+            </div><!-- /.promo-box-image -->
+
+            <div class="promo-box-body">
+              <h2>FAQ</h2>
+
+              <dl>
+                <dt>What is this?</dt>
+                <dl>This course is a series of articles which teach you how to use React from the ground up. The series provides a step-by-step process you can use to learn React from an empty folder to a deployed React app.</dl>
+
+                <dt>What if I get stuck?</dt>
+                <dl>Just <a href="/cdn-cgi/l/email-protection#6a180f0b091e2a0c1f0606191e0b0901440305">send us an email</a> and we'll be happy to help you get unstuck</dl>
+
+                <dt>Who wrote this?</dt>
+                <dl>We're the authors of the <a href="/">Fullstack React Book</a> </dl>
+
+                <p class="promo-box-action">
+                  <a href="/download/30-days-of-react/" target="_blank" class="manual-optin-trigger btn btn-default" data-optin-slug="opsh28ygz42xhvtlq4vd">Enroll in this free course</a>
+              </p>
+            </div><!-- /.promo-box-body -->
+          </div><!-- /.promo-box-inner -->
+        </div><!-- /.promo-box -->
+      </div><!-- /.container -->
+    </div><!-- /.section-promo -->
+
+    <section class="section-authors">
+      <div class="container">
+        <header class="section-head">
+          <h1 class="section-title">
+            <span>Course Author</span>
+          </h1><!-- /.section-title -->
+        </header><!-- /.section-head -->
+
+        <div class="section-body">
+          <div class="author-simple">
+            <div class="row">
+  <div class="col-sm-4">
+    <img class="avatar" src="/assets/images/authors/ari-lerner.png">
+  </div>
+  <div class="col-sm-8">
+    <h2>Ari Lerner</h2>
+    <div>
+      <p>
+        Hi, I'm Ari. I'm an author of <em>Fullstack React</em> and <em>ng-book</em> and I've been teaching Web Development for a long time. I like to speak at conferences and eat spicy food. I <em>technically</em> got paid while I traveled the country as a professional comedian, but have come to terms with the fact that I am not funny.
+      </p>
+
+      <p>Connect with Ari on Twitter at <a href="http://twitter.com/auser" target="_blank">@auser</a>.</p>
+    </div>
+  </div>
+</div>
+
+          </div><!-- /.author-simple -->
+        </div><!-- /.section-body -->
+      </div><!-- /.container -->
+    </section><!-- /.section-authors -->
+
+    <section class="section-promise section-promise-alt"
+      style="background-image: url(/assets/images/backgrounds/section-sample-code.jpg)"
+    >
+      <div class="container">
+        <div class="section-inner">
+          <header class="section-head">
+            <h1 class="section-title white">Get started now</h1><!-- /.section-title -->
+
+            <p>Join us on our 30-day journey in React. Join thousands of other professional React developers and learn one of the most powerful web application development frameworks available today. </p>
+          </header><!-- /.section-head -->
+
+          <div class="section-body">
+            <form class="form-inline" target="_blank" novalidate=""
+                  accept-charset="UTF-8" action="https://fd338.infusionsoft.com/app/form/process/a6e7d4fdf2891b50a87effa8540f834d" class="infusion-form" method="POST"
+                  >
+              <input name="inf_form_xid" type="hidden" value="a6e7d4fdf2891b50a87effa8540f834d" />
+              <input name="inf_form_name" type="hidden" value="30 Days of React Form Submitted" />
+              <input name="infusionsoft_version" type="hidden" value="1.59.0.51" />
+
+              <div class="section-entry">
+                <div class="form-row">
+                  <label for="field-email" class="form-label">email</label>
+
+                  <div class="form-controls">
+                    <input type="email" class="field" id="inf_field_Email" name="inf_field_Email" placeholder="Put in your email address">
+                    <input type="hidden" name="FORMID" value="DailyUI-Landing-a">
+
+                    <small>No spam ever. Easy to unsubscribe.</small>
+                  </div><!-- /.form-controls -->
+                </div><!-- /.form-row -->
+              </div><!-- /.section-entry -->
+
+              <div class="section-actions">
+                <button type="submit" id="mc-embedded-subscribe" class="btn btn-default">
+            <i class="glyphicon glyphicon-envelope"></i>
+            DOWNLOAD 30 DAYS OF REACT PDF (FREE)
+          </button>
+              </div><!-- /.section-actions -->
+            </form>
+          </div><!-- /.section-body -->
+        </div><!-- /.section-inner -->
+      </div><!-- /.container -->
+    </section><!-- /.section-promise -->
+  </main><!-- /.main -->
+</div><!-- /.wrapper -->
+
+
+
+
+    </main>
+
+    
+    <footer>
+      
+      
+
+<footer class="footer">
+  <div class="container">
+    <a href="http://fullstack.io" class="footer-logo">Fullstack.io</a>
+
+    <div class="footer-cols">
+      <div class="row">
+        <div class="col-sm-4">
+          <h5 class="footer-title">Resources</h5><!-- /.footer-title -->
+
+          <nav class="footer-nav">
+            <ul>
+              <li>
+                <a href="/articles">Fullstack React Blog</a>
+              </li>
+
+              <li>
+                <a href="http://newsletter.fullstackreact.com/">Fullstack React Newsletter</a>
+              </li>
+
+              <li>
+                <a href="/p/changelog/">Book Changelog</a>
+              </li>
+
+              <li>
+                <a href="http://tjfullerswebsite.com">Cover art by TJ Fuller</a>
+              </li>
+
+              <!--
+              <li>
+                <a href="#">Fullstack React Chat Room</a>
+              </li>
+              -->
+            </ul>
+          </nav><!-- /.footer-nav -->
+        </div><!-- /.col-sm-4 -->
+
+        <div class="col-sm-4">
+          <h5 class="footer-title">Other Products</h5><!-- /.footer-title -->
+
+          <nav class="footer-nav">
+            <ul>
+              <li>
+                <a href="/">Fullstack React Book</a>
+              </li>
+
+              <li>
+                <a href="/react-native">Fullstack React Native Book</a>
+              </li>
+
+              <li>
+                <a href="/react-from-zero">React from Zero Book</a>
+              </li>
+
+              <li>
+                <a href="http://ng-book.com/2">ng-book 2: the guide to Angular 2</a>
+              </li>
+
+              <li>
+                <a href="http://ng-newsletter.com">ng-newsletter: AngularJS News</a>
+              </li>
+
+              <li>
+                <a href="http://protractor.ng-book.com">Protractor Master Class</a>
+              </li>
+            </ul>
+          </nav><!-- /.footer-nav -->
+        </div><!-- /.col-sm-4 -->
+
+        <div class="col-sm-4">
+          <h5 class="footer-title">Get in touch</h5><!-- /.footer-title -->
+
+          <nav class="footer-nav">
+            <ul>
+              <li>Questions?</li>
+
+              <li>
+                <a href="/cdn-cgi/l/email-protection#ff8d9a9e9c8bbf998a93938c8b9e9c94d19690"><span class="__cf_email__" data-cfemail="a0d2c5c1c3d4e0c6d5ccccd3d4c1c3cb8ec9cf">[email&#160;protected]</span></a>
+              </li>
+            </ul>
+          </nav><!-- /.footer-nav -->
+        </div><!-- /.col-sm-4 -->
+      </div><!-- /.row -->
+    </div><!-- /.footer-cols -->
+  </div><!-- /.container -->
+</footer><!-- /.footer -->
+
+      
+    </footer>
+    
+  </div><!-- /.wrapper -->
+
+  
+  
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/assets/js/common.js" ></script>
+  <script src="/assets/js/main.js" ></script>
+
+  
+  
+
+  
+
+<script type="text/javascript">
+  loadPage('30-days.js')
+</script>
+
+
+  <!--
+  <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
+  -->
+  
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1094038514008920');
+fbq('track', "PageView");</script>
+
+
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1094038514008920&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
+  
+</body>
+</html>
+
+0
+

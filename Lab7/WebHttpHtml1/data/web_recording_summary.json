@@ -1,0 +1,241 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-update-updater",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-update-interactivity",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-update-appid",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-compress",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "dnt",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "a-im",
+      "IncludeInScript": true
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 12,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "дек-03-2018",
+    "RecordingDuration": 1735219,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1543844339,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 20532,
+    "TotalBytesSent": 12402,
+    "TotalRequests": 12,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.20.163",
+          "IncludeInScript": true,
+          "Name": "update.googleapis.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/xml",
+              "DownloadTime": 93,
+              "EventId": 2943,
+              "HttpStatus": 200,
+              "Size": 1996,
+              "URL": "http://update.googleapis.com/service/update2?cup2key=8:3169275726&cup2hreq=a8944091e6b5df69d2c7eb4eec78cd7caea86b701543b4e6b84956b2f9f86596"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.20.163",
+          "IncludeInScript": true,
+          "Name": "clientservices.googleapis.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 46,
+              "EventId": 2429,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=70"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "178.32.113.122",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "178.32.113.122",
+          "IncludeInScript": true,
+          "Name": "178.32.113.122",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 79,
+              "EventId": 4967,
+              "HttpStatus": 200,
+              "Size": 3660,
+              "URL": "http://178.32.113.122/?1543846301897&jp8d91yu"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 4768,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "http://178.32.113.122/r?1543846208273&jp8d91yt"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 4712,
+              "HttpStatus": 200,
+              "Size": 3660,
+              "URL": "http://178.32.113.122/?1543846207833&jp8d91ys"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 3607,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "http://178.32.113.122/r?1543845501012&jp8d91yr"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 3597,
+              "HttpStatus": 200,
+              "Size": 3660,
+              "URL": "http://178.32.113.122/?1543845499865&jp8d91yq"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 62,
+              "EventId": 2829,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "http://178.32.113.122/r?1543844954644&jp8d91yp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 2826,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "http://178.32.113.122/r?1543844954632&jp8d91yo"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 2818,
+              "HttpStatus": 200,
+              "Size": 3660,
+              "URL": "http://178.32.113.122/?1543844954339&jp8d91yn"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 2815,
+              "HttpStatus": 200,
+              "Size": 3660,
+              "URL": "http://178.32.113.122/?1543844954263&jp8d91ym"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 79,
+              "EventId": 2808,
+              "HttpStatus": 200,
+              "Size": 232,
+              "URL": "http://178.32.113.122/?1543844949436&jp8d91yl"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

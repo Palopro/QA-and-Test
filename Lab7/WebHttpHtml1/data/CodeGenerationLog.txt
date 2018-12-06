@@ -1,0 +1,944 @@
+****** Start Log Message ******
+Web Recorder version : 12.60.971.0 
+Recording Mode: HTML-based script
+Recording headers not in list:
+	accept
+	accept-charset
+	accept-encoding
+	accept-language
+	accept-ranges
+	age
+	allow
+	cache-control
+	content-base
+	content-disposition
+	content-encoding
+	content-language
+	content-location
+	content-md5
+	content-range
+	content-type
+	date
+	etag
+	expires
+	from
+	if-modified-since
+	if-match
+	if-none-match
+	if-range
+	if-unmodified-since
+	location
+	last-modified
+	max-forwards
+	pragma
+	public
+	range
+	retry-after
+	server
+	transfer-encoding
+	upgrade
+	user-agent
+	vary
+	via
+	warning
+	method
+	path
+	scheme
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 12.60.971.0
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 2429 ******
+GET /chrome-variations/seed?osname=win&channel=stable&milestone=70 HTTP/1.1
+Host: clientservices.googleapis.com
+Connection: keep-alive
+If-None-Match: CkiJKkAKXOdmTyjY80DUhP7zVGRwKyylVsRI3Xlj/eQyvON2Z/l8sWV6Uyk6WuJbTAlrdPjeTHkYFz4isdI0KtpiUuyVCJFkbLsQARogVH8Wf/pa11BUpMhKC9z+ApUU7ARNYM6zTT4io0QuiCcgAQ==
+A-IM: x-bm,gzip
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 2429 Ended $$$$$$
+
+****** Response Header For Transaction With Id 2429 ******
+HTTP/1.1 304 Not Modified
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Date: Mon, 03 Dec 2018 13:44:27 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 2429 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Start Log Message ******
+Set SSL version to 'TLS1.2'
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 2429 ****** (Location Flag : tFlagInsertEnd, Location ID : 2429)
+	web_url("seed",
+		"URL=http://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=70",
+		"Resource=0",
+		"Referer=",
+		"Snapshot=t4.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 2429 Ended $$$$$$
+
+****** Request Header For Transaction With Id 2808 ******
+POST /?1543844949436&jp8d91yl HTTP/1.1
+Host: 178.32.113.122
+Connection: keep-alive
+Content-Length: 43
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+Origin: chrome-extension://biokbpahnhnolgnfoblfflgopeepaoik
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+DNT: 1
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru-UA;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6
+X-Compress: null
+
+
+$$$$$$ Request Header For Transaction With Id 2808 Ended $$$$$$
+
+****** Request Body For Transaction With Id 2808 ******
+ua&k=3Ptr6s8uOorYniyx&t=0&s=0&ip=&po=0&pu=2
+$$$$$$ Request Body For Transaction With Id 2808 Ended $$$$$$
+
+****** Response Header For Transaction With Id 2808 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 03 Dec 2018 13:49:11 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 232
+Connection: close
+Set-Cookie: frigate_FLASH=; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+
+$$$$$$ Response Header For Transaction With Id 2808 Ended $$$$$$
+
+****** Response Body For Transaction With Id 2808 ******
+LPdyzV0VMNN+SLTPgJKZKCozOi+KN0BWSJ1N/Vn/v8rn7uxuHxY0iTWUiBjSJnzWHW5GAaW5RdlkdpmaobrGnC5sQHDzDCtsauV08CasCVRqyE0v6KiRqtCouOlmwhaUlzW15a/hl/va5KS6xxRLPweHcKWALBmfpslAbuxlr2zeJW1y5yG0MyjIYnSz5KZQkomIuRFVVumFt2b1kCqhiSyotw+7pOPoc5bujA==
+$$$$$$ Response Body For Transaction With Id 2808 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/chrome-variations/seed?osname=win&channel=stable&milestone=70
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 2808 ****** (Location Flag : tFlagInsertEnd, Location ID : 2808)
+	web_custom_request("178.32.113.122",
+		"URL=http://178.32.113.122/?1543844949436&jp8d91yl",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t5.inf",
+		"Mode=HTML",
+		"EncType=application/x-www-form-urlencoded; charset=UTF-8",
+		"Body=ua&k=3Ptr6s8uOorYniyx&t=0&s=0&ip=&po=0&pu=2",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 2808 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 2429)
+	web_add_header("A-IM",
+		"x-bm,gzip");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 2815 ******
+POST /?1543844954263&jp8d91ym HTTP/1.1
+Host: 178.32.113.122
+Connection: keep-alive
+Content-Length: 65
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+Origin: chrome-extension://biokbpahnhnolgnfoblfflgopeepaoik
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+DNT: 1
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru-UA;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6
+Cookie: frigate_FLASH=
+X-Compress: null
+
+
+$$$$$$ Request Header For Transaction With Id 2815 Ended $$$$$$
+
+****** Request Body For Transaction With Id 2815 ******
+ua&k=3Ptr6s8uOorYniyx&t=1543862231&s=0&ip=93.76.140.35&po=18&pu=0
+$$$$$$ Request Body For Transaction With Id 2815 Ended $$$$$$
+
+****** Response Header For Transaction With Id 2815 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 03 Dec 2018 13:49:12 GMT
+Content-Type: text/plain; charset=utf-8
+Transfer-Encoding: chunked
+Connection: close
+Set-Cookie: frigate_FLASH=; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+
+$$$$$$ Response Header For Transaction With Id 2815 Ended $$$$$$
+
+****** Response Body For Transaction With Id 2815 ******
+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
+$$$$$$ Response Body For Transaction With Id 2815 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/?1543844949436&jp8d91yl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 2815 ****** (Location Flag : tFlagInsertEnd, Location ID : 2815)
+	web_custom_request("178.32.113.122_2",
+		"URL=http://178.32.113.122/?1543844954263&jp8d91ym",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t6.inf",
+		"Mode=HTML",
+		"EncType=application/x-www-form-urlencoded; charset=UTF-8",
+		"Body=ua&k=3Ptr6s8uOorYniyx&t=1543862231&s=0&ip=93.76.140.35&po=18&pu=0",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 2815 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 2808)
+	web_add_auto_header("DNT",
+		"1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 2808)
+	web_add_auto_header("Origin",
+		"chrome-extension://biokbpahnhnolgnfoblfflgopeepaoik");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 2808)
+	web_add_auto_header("X-Compress",
+		"null");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 2808)
+	web_add_auto_header("X-Requested-With",
+		"XMLHttpRequest");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 2818 ******
+POST /?1543844954339&jp8d91yn HTTP/1.1
+Host: 178.32.113.122
+Connection: keep-alive
+Content-Length: 65
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+Origin: chrome-extension://biokbpahnhnolgnfoblfflgopeepaoik
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+DNT: 1
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru-UA;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6
+Cookie: frigate_FLASH=
+X-Compress: null
+
+
+$$$$$$ Request Header For Transaction With Id 2818 Ended $$$$$$
+
+****** Request Body For Transaction With Id 2818 ******
+ua&k=3Ptr6s8uOorYniyx&t=1543862231&s=0&ip=93.76.140.35&po=18&pu=0
+$$$$$$ Request Body For Transaction With Id 2818 Ended $$$$$$
+
+****** Response Header For Transaction With Id 2818 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 03 Dec 2018 13:49:12 GMT
+Content-Type: text/plain; charset=utf-8
+Transfer-Encoding: chunked
+Connection: close
+Set-Cookie: frigate_FLASH=; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+
+$$$$$$ Response Header For Transaction With Id 2818 Ended $$$$$$
+
+****** Response Body For Transaction With Id 2818 ******
+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
+$$$$$$ Response Body For Transaction With Id 2818 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/?1543844954263&jp8d91ym
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 2818 ****** (Location Flag : tFlagInsertEnd, Location ID : 2818)
+	web_custom_request("178.32.113.122_3",
+		"URL=http://178.32.113.122/?1543844954339&jp8d91yn",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t7.inf",
+		"Mode=HTML",
+		"EncType=application/x-www-form-urlencoded; charset=UTF-8",
+		"Body=ua&k=3Ptr6s8uOorYniyx&t=1543862231&s=0&ip=93.76.140.35&po=18&pu=0",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 2818 Ended $$$$$$
+
+****** Request Header For Transaction With Id 2826 ******
+POST /r?1543844954632&jp8d91yo HTTP/1.1
+Host: 178.32.113.122
+Connection: keep-alive
+Content-Length: 56
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+Origin: chrome-extension://biokbpahnhnolgnfoblfflgopeepaoik
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+DNT: 1
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru-UA;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6
+Cookie: frigate_FLASH=
+X-Compress: null
+
+
+$$$$$$ Request Header For Transaction With Id 2826 Ended $$$$$$
+
+****** Request Body For Transaction With Id 2826 ******
+ua&k=3Ptr6s8uOorYniyx&s=09fbb5240aeefb6a9a02418ffc9b440e
+$$$$$$ Request Body For Transaction With Id 2826 Ended $$$$$$
+
+****** Response Header For Transaction With Id 2826 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 03 Dec 2018 13:49:12 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 1
+Connection: close
+Set-Cookie: frigate_FLASH=; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+
+$$$$$$ Response Header For Transaction With Id 2826 Ended $$$$$$
+
+****** Response Body For Transaction With Id 2826 ******
+-
+$$$$$$ Response Body For Transaction With Id 2826 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/?1543844954339&jp8d91yn
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 2826 ****** (Location Flag : tFlagInsertEnd, Location ID : 2826)
+	web_custom_request("r",
+		"URL=http://178.32.113.122/r?1543844954632&jp8d91yo",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t8.inf",
+		"Mode=HTML",
+		"EncType=application/x-www-form-urlencoded; charset=UTF-8",
+		"Body=ua&k=3Ptr6s8uOorYniyx&s=09fbb5240aeefb6a9a02418ffc9b440e",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 2826 Ended $$$$$$
+
+****** Request Header For Transaction With Id 2829 ******
+POST /r?1543844954644&jp8d91yp HTTP/1.1
+Host: 178.32.113.122
+Connection: keep-alive
+Content-Length: 56
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+Origin: chrome-extension://biokbpahnhnolgnfoblfflgopeepaoik
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+DNT: 1
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru-UA;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6
+Cookie: frigate_FLASH=
+X-Compress: null
+
+
+$$$$$$ Request Header For Transaction With Id 2829 Ended $$$$$$
+
+****** Request Body For Transaction With Id 2829 ******
+ua&k=3Ptr6s8uOorYniyx&s=09fbb5240aeefb6a9a02418ffc9b440e
+$$$$$$ Request Body For Transaction With Id 2829 Ended $$$$$$
+
+****** Response Header For Transaction With Id 2829 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 03 Dec 2018 13:49:12 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 1
+Connection: close
+Set-Cookie: frigate_FLASH=; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+
+$$$$$$ Response Header For Transaction With Id 2829 Ended $$$$$$
+
+****** Response Body For Transaction With Id 2829 ******
+-
+$$$$$$ Response Body For Transaction With Id 2829 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/r?1543844954632&jp8d91yo
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 2829 ****** (Location Flag : tFlagInsertEnd, Location ID : 2829)
+	web_custom_request("r_2",
+		"URL=http://178.32.113.122/r?1543844954644&jp8d91yp",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t9.inf",
+		"Mode=HTML",
+		"EncType=application/x-www-form-urlencoded; charset=UTF-8",
+		"Body=ua&k=3Ptr6s8uOorYniyx&s=09fbb5240aeefb6a9a02418ffc9b440e",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 2829 Ended $$$$$$
+
+****** Request Header For Transaction With Id 2943 ******
+POST /service/update2?cup2key=8:3169275726&cup2hreq=a8944091e6b5df69d2c7eb4eec78cd7caea86b701543b4e6b84956b2f9f86596 HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 4205
+X-Goog-Update-AppId: mimojjlkmoijpicakmndhoigimigcmbb,oimompecagnajdejgnnjijobebaeigek,hnimpnehoodheedghdeeijklkeaacbdc,gcmjkmgdlgnkkcocmoeiminaijmmjnii,hfnkpimlhhgieaddgfemjhofmfblmnib,ojjgnpkioondelmggbekfhllhdaimnho,llkgjffcdpffmhiakmfcdcblohccpfmo,khaoiebndkojlmppeemjhbpbandiljpe,giekcmmlnklenlaomppkphknjmnnpneh,aemomkdncapdnfajjbbcbdebjljbpmpj,gkmgaooipdjhmangpemjhigmamcehddo,copjbmjbojbakpaedmpkhmiplmmehfck,npdjjkjlcidkjlamlmmdelcjbcpdjocm
+X-Goog-Update-Interactivity: bg
+X-Goog-Update-Updater: chrome-70.0.3538.110
+Content-Type: application/xml
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 2943 Ended $$$$$$
+
+****** Request Body For Transaction With Id 2943 ******
+<?xml version="1.0" encoding="UTF-8"?><request protocol="3.1" dedup="cr" acceptformat="crx2,crx3" sessionid="{a0137ffc-3d1d-48aa-9e5d-b34a505f4a39}" requestid="{ac7a64e1-0db4-4ef8-9e79-f85efe03e054}" updater="chrome" updaterversion="70.0.3538.110" prodversion="70.0.3538.110" lang="ru" updaterchannel="" prodchannel="" os="win" arch="x64" nacl_arch="x86-64" domainjoined="0"><hw physmemory="6"/><os platform="Windows" arch="x86_64" version="10.0.17763.134"/><updater autoupdatecheckenabled="1" ismachine="1" lastchecked="0" laststarted="0" name="Omaha" updatepolicy="-1" version="1.3.33.17"/><app appid="mimojjlkmoijpicakmndhoigimigcmbb" version="31.0.0.153" brand="SQJL" cohort="1:d0j:" cohortname="Chrome [M50... M99]" enabled="1"><updatecheck/><ping rd="4354" ping_freshness="{237b7dbb-87e0-42f2-b4a4-c5bd5d32cf22}"/><packages><package fp="1.d4ee3148f99a04964e002a1bfecc7ba27806df0390e8fdfe748c69c1bd4c4aed"/></packages></app><app appid="oimompecagnajdejgnnjijobebaeigek" version="4.10.1196.0" brand="SQJL" enabled="1"><u
+$$$$$$ Request Body For Transaction With Id 2943 Ended $$$$$$
+
+****** Response Header For Transaction With Id 2943 ******
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 03 Dec 2018 13:50:43 GMT
+X-Cup-Server-Proof: 3045022100a07822ceee5aefcfbd2b42494791be150af0d00ce987b32c2d81e1e9d98bfba80220546f1d1db2fe8ce25891558d3ca1ed7197053653fe93ac5e82d8b9b38bb9c756:a8944091e6b5df69d2c7eb4eec78cd7caea86b701543b4e6b84956b2f9f86596
+ETag: W/"3045022100a07822ceee5aefcfbd2b42494791be150af0d00ce987b32c2d81e1e9d98bfba80220546f1d1db2fe8ce25891558d3ca1ed7197053653fe93ac5e82d8b9b38bb9c756:a8944091e6b5df69d2c7eb4eec78cd7caea86b701543b4e6b84956b2f9f86596"
+Content-Type: text/xml; charset=UTF-8
+X-Daynum: 4354
+X-Daystart: 21043
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 2943 Ended $$$$$$
+
+****** Response Body For Transaction With Id 2943 ******
+<?xml version="1.0" encoding="UTF-8"?><response protocol="3.1" server="prod"><daystart elapsed_days="4354" elapsed_seconds="21043"/><app appid="mimojjlkmoijpicakmndhoigimigcmbb" cohort="1:d0j:" cohortname="Chrome [M50... M99]" status="ok"><updatecheck status="noupdate"/><ping status="ok"/></app><app appid="oimompecagnajdejgnnjijobebaeigek" cohort="" cohortname="" status="ok"><updatecheck status="noupdate"/><ping status="ok"/></app><app appid="hnimpnehoodheedghdeeijklkeaacbdc" cohort="" cohortname="" status="ok"><updatecheck status="noupdate"/><ping status="ok"/></app><app appid="gcmjkmgdlgnkkcocmoeiminaijmmjnii" cohort="1:bm1:" cohortname="M54ToM99" status="ok"><updatecheck status="noupdate"/><ping status="ok"/></app><app appid="hfnkpimlhhgieaddgfemjhofmfblmnib" cohort="1:jcl:" cohortname="Auto" status="ok"><updatecheck status="noupdate"/><ping status="ok"/></app><app appid="ojjgnpkioondelmggbekfhllhdaimnho" cohort="1:0:" cohortname="Auto" status="ok"><updatecheck status="noupdate"/><ping status="ok"/></app><app appid="llkgjffcdpffmhiakmfcdcblohccpfmo" status="error-unknownApplication"/><app appid="khaoiebndkojlmppeemjhbpbandiljpe" cohort="1:cux:" cohortname="Auto" status="ok"><updatecheck status="noupdate"/><ping status="ok"/></app><app appid="giekcmmlnklenlaomppkphknjmnnpneh" cohort="1:j5l:" cohortname="Auto" status="ok"><updatecheck status="noupdate"/><ping status="ok"/></app><app appid="aemomkdncapdnfajjbbcbdebjljbpmpj" cohort="" cohortname="" status="ok"><updatecheck status="noupdate"/><ping status="ok"/></app><app appid="gkmgaooipdjhmangpemjhigmamcehddo" cohort="1:lsl:" cohortname="ESET Stable" status="ok"><updatecheck status="noupdate"/><ping status="ok"/></app><app appid="copjbmjbojbakpaedmpkhmiplmmehfck" cohort="1:p1x:" cohortname="Auto" status="ok"><updatecheck status="noupdate"/><ping status="ok"/></app><app appid="npdjjkjlcidkjlamlmmdelcjbcpdjocm" cohort="" cohortname="" status="ok"><updatecheck status="noupdate"/><ping status="ok"/></app></response>
+$$$$$$ Response Body For Transaction With Id 2943 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/r?1543844954644&jp8d91yp
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 2943 ****** (Location Flag : tFlagInsertEnd, Location ID : 2943)
+	web_custom_request("update2",
+		"URL=http://update.googleapis.com/service/update2?cup2key=8:3169275726&cup2hreq=a8944091e6b5df69d2c7eb4eec78cd7caea86b701543b4e6b84956b2f9f86596",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/xml",
+		"Referer=",
+		"Snapshot=t10.inf",
+		"Mode=HTML",
+		"EncType=application/xml",
+		"Body=<?xml version=\"1.0\" encoding=\"UTF-8\"?><request protocol=\"3.1\" dedup=\"cr\" acceptformat=\"crx2,crx3\" sessionid=\"{a0137ffc-3d1d-48aa-9e5d-b34a505f4a39}\" requestid=\"{ac7a64e1-0db4-4ef8-9e79-f85efe03e054}\" updater=\"chrome\" updaterversion=\"70.0.3538.110\" prodversion=\"70.0.3538.110\" lang=\"ru\" updaterchannel=\"\" prodchannel=\"\" os=\"win\" arch=\"x64\" nacl_arch=\"x86-64\" domainjoined=\"0\"><hw physmemory=\"6\"/><os platform=\"Windows\" arch=\"x86_64\" version=\"10.0.17763.134\"/><updater autoupdatecheckenabled=\"1\" ismachine=\"1\" lastchecked=\"0\" laststarted=\"0\" name=\"Omaha\" updatepolicy=\"-1\" version=\"1.3.33.17\"/><app appid=\"mimojjlkmoijpicakmndhoigimigcmbb\" version=\"31.0.0.153\" brand=\"SQJL\" cohort=\"1:d0j:\" cohortname=\"Chrome [M50... M99]\" enabled=\"1\"><updatecheck/><ping rd=\"4354\" ping_freshness=\"{237b7dbb-87e0-42f2-b4a4-c5bd5d32cf22}\"/><packages><package fp=\"1.d4ee3148f99a04964e002a1bfecc7ba27806df0390e8fdfe748c69c1bd4c4aed\"/></packages></app><app appid=\"oi"
+		"mompecagnajdejgnnjijobebaeigek\" version=\"4.10.1196.0\" brand=\"SQJL\" enabled=\"1\"><updatecheck/><ping rd=\"4354\" ping_freshness=\"{2eaabb96-b877-4873-8c8a-31b95957b0f0}\"/></app><app appid=\"hnimpnehoodheedghdeeijklkeaacbdc\" version=\"0.57.44.2492\" brand=\"SQJL\" enabled=\"1\"><updatecheck/><ping rd=\"4354\" ping_freshness=\"{830a979d-e441-4703-ad59-aa9717515723}\"/><packages><package fp=\"1.1cd7dc2056afaa0f6a705c9a17d22bba6578b33f5dae9e2d6518a0bfcced2396\"/></packages></app><app appid=\"gcmjkmgdlgnkkcocmoeiminaijmmjnii\" version=\"9.1\" brand=\"SQJL\" cohort=\"1:bm1:\" cohortname=\"M54ToM99\" enabled=\"1\"><updatecheck/><ping rd=\"4354\" ping_freshness=\"{594d9df9-76a8-4a80-8e97-4c40db05dcd9}\"/><packages><package fp=\"1.22c7dfe769f240e50080a6aad4e3412dbb5603194c5237847147f223fd230be9\"/></packages></app><app appid=\"hfnkpimlhhgieaddgfemjhofmfblmnib\" version=\"4857\" brand=\"SQJL\" cohort=\"1:jcl:\" cohortname=\"Auto\" enabled=\"1\"><updatecheck/><ping rd=\"4354\" ping_freshness=\"{2cfaa325-0fc6-43"
+		"df-aa50-eed5606824db}\"/><packages><package fp=\"1.f5039a33d4c646d539d38d763aa7eee5407eb0c34f57280fb41c3c0ef26588d0\"/></packages></app><app appid=\"ojjgnpkioondelmggbekfhllhdaimnho\" version=\"956\" brand=\"SQJL\" cohort=\"1:0:\" cohortname=\"Auto\" enabled=\"1\"><updatecheck/><ping rd=\"4354\" ping_freshness=\"{ff4dd82d-fb18-4065-b2d8-8160425e7bf9}\"/><packages><package fp=\"1.0a5b1e3e669a0aaaf876d4316ec49784e22e7375d5b73a5d382d5024c90ada08\"/></packages></app><app appid=\"llkgjffcdpffmhiakmfcdcblohccpfmo\" version=\"0.0.0.0\" brand=\"SQJL\" enabled=\"1\"><updatecheck/><ping rd=\"4354\" ping_freshness=\"{bda799cd-3e94-412d-8d22-c0de45db6721}\"/></app><app appid=\"khaoiebndkojlmppeemjhbpbandiljpe\" version=\"22\" brand=\"SQJL\" cohort=\"1:cux:\" cohortname=\"Auto\" enabled=\"1\"><updatecheck/><ping rd=\"4354\" ping_freshness=\"{1ee17d89-927e-47dd-b1c3-60600cbe2c5a}\"/><packages><package fp=\"1.186c522b669a2a12fb278978178d295415aff1cd3d46c2fae7ebe6cf60113a52\"/></packages></app><app appid=\"giekcmmlnklenlao"
+		"mppkphknjmnnpneh\" version=\"6\" brand=\"SQJL\" cohort=\"1:j5l:\" cohortname=\"Auto\" enabled=\"1\"><updatecheck/><ping rd=\"4354\" ping_freshness=\"{8c8138f9-54e9-4a1b-943a-1b082f624089}\"/><packages><package fp=\"1.2a13f90f48d96d1038efa35a937a1d9bed2f89adccb50f2430ce66a65c395b69\"/></packages></app><app appid=\"aemomkdncapdnfajjbbcbdebjljbpmpj\" version=\"1.0.3.0\" brand=\"SQJL\" enabled=\"1\"><updatecheck/><ping rd=\"4354\" ping_freshness=\"{ff86e501-f5a3-4c62-8c59-73ace94940c6}\"/></app><app appid=\"gkmgaooipdjhmangpemjhigmamcehddo\" version=\"36.182.200\" brand=\"SQJL\" tag=\"stable_eset\" cohort=\"1:lsl:\" cohortname=\"ESET Stable\" enabled=\"1\"><updatecheck/><ping rd=\"4354\" ping_freshness=\"{e114751d-4d7b-407e-9d63-62bc4ca66147}\"/><packages><package fp=\"1.71cae647e985b827b31d9d813f9ed326f6ab2b22dfc5b441716bccbcd1e76896\"/></packages></app><app appid=\"copjbmjbojbakpaedmpkhmiplmmehfck\" version=\"2018.9.6.0\" brand=\"SQJL\" cohort=\"1:p1x:\" cohortname=\"Auto\" enabled=\"1\"><updatecheck/><ping r"
+		"d=\"4354\" ping_freshness=\"{eaa59542-4370-4cc5-8afc-41c3afdf84ce}\"/><packages><package fp=\"1.207921137eee9c0831e0bd890330986c10dfd9382034491b82de3f86ae6915f7\"/></packages></app><app appid=\"npdjjkjlcidkjlamlmmdelcjbcpdjocm\" version=\"0.0.0.0\" brand=\"SQJL\" enabled=\"1\"><updatecheck/><ping rd=\"4354\" ping_freshness=\"{06d0193d-9d05-4bfa-81ca-7d4b6bf89786}\"/></app></request>",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 2943 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 2943)
+	web_revert_auto_header("DNT");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 2943)
+	web_revert_auto_header("Origin");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 2943)
+	web_revert_auto_header("X-Compress");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 2943)
+	web_revert_auto_header("X-Requested-With");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 3597 ******
+POST /?1543845499865&jp8d91yq HTTP/1.1
+Host: 178.32.113.122
+Connection: keep-alive
+Content-Length: 96
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+Origin: chrome-extension://biokbpahnhnolgnfoblfflgopeepaoik
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+DNT: 1
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru-UA;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6
+Cookie: frigate_FLASH=
+X-Compress: null
+
+
+$$$$$$ Request Header For Transaction With Id 3597 Ended $$$$$$
+
+****** Request Body For Transaction With Id 3597 ******
+ua&k=3Ptr6s8uOorYniyx&t=1543862231&s=90d1e799964edda78eab3124650c868a&ip=93.76.140.35&po=18&pu=0
+$$$$$$ Request Body For Transaction With Id 3597 Ended $$$$$$
+
+****** Response Header For Transaction With Id 3597 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 03 Dec 2018 13:58:18 GMT
+Content-Type: text/plain; charset=utf-8
+Transfer-Encoding: chunked
+Connection: close
+Set-Cookie: frigate_FLASH=; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+
+$$$$$$ Response Header For Transaction With Id 3597 Ended $$$$$$
+
+****** Response Body For Transaction With Id 3597 ******
+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
+$$$$$$ Response Body For Transaction With Id 3597 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/service/update2?cup2key=8:3169275726&cup2hreq=a8944091e6b5df69d2c7eb4eec78cd7caea86b701543b4e6b84956b2f9f86596
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 3597 ****** (Location Flag : tFlagInsertEnd, Location ID : 3597)
+	web_custom_request("178.32.113.122_4",
+		"URL=http://178.32.113.122/?1543845499865&jp8d91yq",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t11.inf",
+		"Mode=HTML",
+		"EncType=application/x-www-form-urlencoded; charset=UTF-8",
+		"Body=ua&k=3Ptr6s8uOorYniyx&t=1543862231&s=90d1e799964edda78eab3124650c868a&ip=93.76.140.35&po=18&pu=0",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 3597 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 2943)
+	web_add_header("X-Goog-Update-AppId",
+		"mimojjlkmoijpicakmndhoigimigcmbb,oimompecagnajdejgnnjijobebaeigek,hnimpnehoodheedghdeeijklkeaacbdc,gcmjkmgdlgnkkcocmoeiminaijmmjnii,hfnkpimlhhgieaddgfemjhofmfblmnib,ojjgnpkioondelmggbekfhllhdaimnho,llkgjffcdpffmhiakmfcdcblohccpfmo,khaoiebndkojlmppeemjhbpbandiljpe,giekcmmlnklenlaomppkphknjmnnpneh,aemomkdncapdnfajjbbcbdebjljbpmpj,gkmgaooipdjhmangpemjhigmamcehddo,copjbmjbojbakpaedmpkhmiplmmehfck,npdjjkjlcidkjlamlmmdelcjbcpdjocm");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 2943)
+	web_add_header("X-Goog-Update-Interactivity",
+		"bg");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 2943)
+	web_add_header("X-Goog-Update-Updater",
+		"chrome-70.0.3538.110");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 3607 ******
+POST /r?1543845501012&jp8d91yr HTTP/1.1
+Host: 178.32.113.122
+Connection: keep-alive
+Content-Length: 56
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+Origin: chrome-extension://biokbpahnhnolgnfoblfflgopeepaoik
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+DNT: 1
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru-UA;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6
+Cookie: frigate_FLASH=
+X-Compress: null
+
+
+$$$$$$ Request Header For Transaction With Id 3607 Ended $$$$$$
+
+****** Request Body For Transaction With Id 3607 ******
+ua&k=3Ptr6s8uOorYniyx&s=09fbb5240aeefb6a9a02418ffc9b440e
+$$$$$$ Request Body For Transaction With Id 3607 Ended $$$$$$
+
+****** Response Header For Transaction With Id 3607 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 03 Dec 2018 13:58:18 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 1
+Connection: close
+Set-Cookie: frigate_FLASH=; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+
+$$$$$$ Response Header For Transaction With Id 3607 Ended $$$$$$
+
+****** Response Body For Transaction With Id 3607 ******
+-
+$$$$$$ Response Body For Transaction With Id 3607 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/?1543845499865&jp8d91yq
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 3607 ****** (Location Flag : tFlagInsertEnd, Location ID : 3607)
+	web_custom_request("r_3",
+		"URL=http://178.32.113.122/r?1543845501012&jp8d91yr",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t12.inf",
+		"Mode=HTML",
+		"EncType=application/x-www-form-urlencoded; charset=UTF-8",
+		"Body=ua&k=3Ptr6s8uOorYniyx&s=09fbb5240aeefb6a9a02418ffc9b440e",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 3607 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 3597)
+	web_add_auto_header("DNT",
+		"1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 3597)
+	web_add_auto_header("Origin",
+		"chrome-extension://biokbpahnhnolgnfoblfflgopeepaoik");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 3597)
+	web_add_auto_header("X-Compress",
+		"null");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 3597)
+	web_add_auto_header("X-Requested-With",
+		"XMLHttpRequest");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 4712 ******
+POST /?1543846207833&jp8d91ys HTTP/1.1
+Host: 178.32.113.122
+Connection: keep-alive
+Content-Length: 96
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+Origin: chrome-extension://biokbpahnhnolgnfoblfflgopeepaoik
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+DNT: 1
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru-UA;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6
+Cookie: frigate_FLASH=
+X-Compress: null
+
+
+$$$$$$ Request Header For Transaction With Id 4712 Ended $$$$$$
+
+****** Request Body For Transaction With Id 4712 ******
+ua&k=3Ptr6s8uOorYniyx&t=1543862231&s=c650e16d285d65c485ee4206ccf42aed&ip=93.76.140.35&po=18&pu=0
+$$$$$$ Request Body For Transaction With Id 4712 Ended $$$$$$
+
+****** Response Header For Transaction With Id 4712 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 03 Dec 2018 14:10:05 GMT
+Content-Type: text/plain; charset=utf-8
+Transfer-Encoding: chunked
+Connection: close
+Set-Cookie: frigate_FLASH=; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+
+$$$$$$ Response Header For Transaction With Id 4712 Ended $$$$$$
+
+****** Response Body For Transaction With Id 4712 ******
+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
+$$$$$$ Response Body For Transaction With Id 4712 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/r?1543845501012&jp8d91yr
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 4712 ****** (Location Flag : tFlagInsertEnd, Location ID : 4712)
+	web_custom_request("178.32.113.122_5",
+		"URL=http://178.32.113.122/?1543846207833&jp8d91ys",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t13.inf",
+		"Mode=HTML",
+		"EncType=application/x-www-form-urlencoded; charset=UTF-8",
+		"Body=ua&k=3Ptr6s8uOorYniyx&t=1543862231&s=c650e16d285d65c485ee4206ccf42aed&ip=93.76.140.35&po=18&pu=0",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 4712 Ended $$$$$$
+
+****** Request Header For Transaction With Id 4768 ******
+POST /r?1543846208273&jp8d91yt HTTP/1.1
+Host: 178.32.113.122
+Connection: keep-alive
+Content-Length: 56
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+Origin: chrome-extension://biokbpahnhnolgnfoblfflgopeepaoik
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+DNT: 1
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru-UA;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6
+Cookie: frigate_FLASH=
+X-Compress: null
+
+
+$$$$$$ Request Header For Transaction With Id 4768 Ended $$$$$$
+
+****** Request Body For Transaction With Id 4768 ******
+ua&k=3Ptr6s8uOorYniyx&s=09fbb5240aeefb6a9a02418ffc9b440e
+$$$$$$ Request Body For Transaction With Id 4768 Ended $$$$$$
+
+****** Response Header For Transaction With Id 4768 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 03 Dec 2018 14:10:06 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 1
+Connection: close
+Set-Cookie: frigate_FLASH=; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+
+$$$$$$ Response Header For Transaction With Id 4768 Ended $$$$$$
+
+****** Response Body For Transaction With Id 4768 ******
+-
+$$$$$$ Response Body For Transaction With Id 4768 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/?1543846207833&jp8d91ys
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 4768 ****** (Location Flag : tFlagInsertEnd, Location ID : 4768)
+	web_custom_request("r_4",
+		"URL=http://178.32.113.122/r?1543846208273&jp8d91yt",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t14.inf",
+		"Mode=HTML",
+		"EncType=application/x-www-form-urlencoded; charset=UTF-8",
+		"Body=ua&k=3Ptr6s8uOorYniyx&s=09fbb5240aeefb6a9a02418ffc9b440e",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 4768 Ended $$$$$$
+
+****** Request Header For Transaction With Id 4967 ******
+POST /?1543846301897&jp8d91yu HTTP/1.1
+Host: 178.32.113.122
+Connection: keep-alive
+Content-Length: 96
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+Origin: chrome-extension://biokbpahnhnolgnfoblfflgopeepaoik
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+DNT: 1
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru-UA;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6
+Cookie: frigate_FLASH=
+X-Compress: null
+
+
+$$$$$$ Request Header For Transaction With Id 4967 Ended $$$$$$
+
+****** Request Body For Transaction With Id 4967 ******
+ua&k=3Ptr6s8uOorYniyx&t=1543862231&s=ae6b96971c3e52d7d8359f7162e2abe1&ip=93.76.140.35&po=18&pu=0
+$$$$$$ Request Body For Transaction With Id 4967 Ended $$$$$$
+
+****** Response Header For Transaction With Id 4967 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 03 Dec 2018 14:11:39 GMT
+Content-Type: text/plain; charset=utf-8
+Transfer-Encoding: chunked
+Connection: close
+Set-Cookie: frigate_FLASH=; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+
+$$$$$$ Response Header For Transaction With Id 4967 Ended $$$$$$
+
+****** Response Body For Transaction With Id 4967 ******
+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
+$$$$$$ Response Body For Transaction With Id 4967 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/r?1543846208273&jp8d91yt
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 4967 ****** (Location Flag : tFlagInsertEnd, Location ID : 4967)
+	web_custom_request("178.32.113.122_6",
+		"URL=http://178.32.113.122/?1543846301897&jp8d91yu",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=text/plain",
+		"Referer=",
+		"Snapshot=t15.inf",
+		"Mode=HTML",
+		"EncType=application/x-www-form-urlencoded; charset=UTF-8",
+		"Body=ua&k=3Ptr6s8uOorYniyx&t=1543862231&s=ae6b96971c3e52d7d8359f7162e2abe1&ip=93.76.140.35&po=18&pu=0",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 4967 Ended $$$$$$
+
